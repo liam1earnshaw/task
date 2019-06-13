@@ -1,0 +1,90 @@
+//Header Styles
+
+header{
+  //position: fixed;
+  width: $full_width;
+  z-index: 10;
+  background-color: #FFF;
+}
+
+.container{
+  width: $full_width;
+  max-width: $max_width;
+  margin: $centerMargin;
+}
+
+#sliderContainer .imageSlider .container{
+  text-align: center;
+  //padding: 50px 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: auto;
+}
+
+#sliderContainer .imageSlider .container h1{
+  position: relative;
+  font-size: 65px
+}
+
+#sliderContainer .imageSlider .container .fa-chevron-down{
+  color: #333333;
+  font-size: 30px;
+}
+
+#sliderContainer .imageSlider .container h1:before{
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  border: 2px solid #333333;
+  width: calc(50% - 300px);
+}
+
+#sliderContainer .imageSlider .container h1:after{
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  border: 2px solid #333333;
+  width: calc(50% - 300px);
+}
+
+#sliderContainer .imageSlider .bgImg{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  opacity: 0.8;
+  background-color: #000000;
+}
+
+.topNav{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  z-index: 1000;
+  background: rgba(0,0,0,0.8);
+}
+
+.topNav a{
+  text-align: center;
+  color: #fff;
+  padding: 20px 0;
+  float: left;
+  width: 100%;
+  font-style: normal;
+  text-decoration: none;
+}
+
+.topNav .col25-12{
+  padding: 0;
+}

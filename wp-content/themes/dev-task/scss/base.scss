@@ -1,3 +1,224 @@
 // Base Styles
 
 // Include base styles here that effect the whole site, such as the html and body tags.
+
+* {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  border-radius: 0;
+  -moz-border-radius: 0;
+  -webkit-border-radius: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+h2{
+  font-size: 50px;
+}
+
+p{
+  line-height: 30px;
+}
+
+html{
+  height: $full_width;
+  overflow-x: hidden;
+}
+
+body{
+  height: $full_width;
+  margin: 0;
+}
+
+main{
+  height: $full_width;
+  float: left;
+}
+
+.block{
+  width: $full_width;
+}
+
+section{
+  position: relative;
+  float: left;
+  width: $full_width;
+  outline: none;
+}
+
+.container {
+  overflow: visible;
+  height: $full_width;
+  margin: $centerMargin;
+  padding: 10px 20px;
+  width: $full_width;
+}
+
+.tcenter{
+  text-align: center;
+}
+
+.col1-12 {
+  width: 8.333%;
+  width: calc(100% / 12 - 0.1px);
+  width: -webkit-calc(100% / 12 - 0.1px);
+  width: -moz-calc(100% / 12 - 0.1px);
+  padding: 0 10px;
+}
+
+.col2-12 {
+  width: 16.666%;
+  width: calc(100% / 12 * 2 - 0.1px);
+  width: -webkit-calc(100% / 12 * 2 - 0.1px);
+  width: -moz-calc(100% / 12 * 2 - 0.1px);
+  padding: 0 10px;
+}
+
+.col25-12 {
+  width: 20%;
+  width: calc(100% / 12 * 2.4 - 0.1px);
+  width: -webkit-calc(100% / 12 * 2.4 - 0.1px);
+  width: -moz-calc(100% / 12 * 2.4 - 0.1px);
+  padding: 0 10px;
+}
+
+.col3-12 {
+  width: 24.999%;
+  width: calc(100% / 12 * 3 - 0.1px);
+  width: -webkit-calc(100% / 12 * 3 - 0.1px);
+  width: -moz-calc(100% / 12 * 3 - 0.1px);
+  padding: 0 10px;
+}
+
+.col4-12 {
+  width: 33.333%;
+  width: calc(100% / 12 * 4 - 0.1px);
+  width: -webkit-calc(100% / 12 * 4 - 0.1px);
+  width: -moz-calc(100% / 12 * 4 - 0.1px);
+  padding: 0 10px;
+}
+
+.col5-12 {
+  width: 41.666%;
+  width: calc(100% / 12 * 5 - 0.1px);
+  width: -webkit-calc(100% / 12 * 5 - 0.1px);
+  width: -moz-calc(100% / 12 * 5 - 0.1px);
+  padding: 0 10px;
+}
+
+.col6-12 {
+  width: 49.999%;
+  width: calc(100% / 12 * 6 - 0.1px);
+  width: -webkit-calc(100% / 12 * 6 - 0.1px);
+  width: -moz-calc(100% / 12 * 6 - 0.1px);
+  padding: 0 10px;
+}
+
+.col7-12 {
+  width: 58.333%;
+  width: calc(100% / 12 * 7 - 0.1px);
+  width: -webkit-calc(100% / 12 * 7 - 0.1px);
+  width: -moz-calc(100% / 12 * 7 - 0.1px);
+  padding: 0 10px;
+}
+
+.col8-12 {
+  width: 66.666%;
+  width: calc(100% / 12 * 8 - 0.1px);
+  width: -webkit-calc(100% / 12 * 8 - 0.1px);
+  width: -moz-calc(100% / 12 * 8 - 0.1px);
+  padding: 0 10px;
+}
+
+.col9-12 {
+  width: 74.999%;
+  width: calc(100% / 12 * 9 - 0.1px);
+  width: -webkit-calc(100% / 12 * 9 - 0.1px);
+  width: -moz-calc(100% / 12 * 9 - 0.1px);
+  padding: 0 10px;
+}
+
+.col10-12 {
+  width: 83.333%;
+  width: calc(100% / 12 * 10 - 0.1px);
+  width: -webkit-calc(100% / 12 * 10 - 0.1px);
+  width: -moz-calc(100% / 12 * 10 - 0.1px);
+  padding: 0 10px;
+}
+
+.col11-12 {
+  width: 91.666%;
+  width: calc(100% / 12 * 11 - 0.1px);
+  width: -webkit-calc(100% / 12 * 11 - 0.1px);
+  width: -moz-calc(100% / 12 * 11 - 0.1px);
+  padding: 0 10px;
+}
+
+.col12-12 {
+  width: 100%;
+  padding: 10px 0
+}
+
+.col {
+  overflow: hidden;
+  float: left;
+  display: block;
+  position: relative;
+}
+
+.col:first-of-type {
+  padding-left: 0;
+}
+
+.col:last-of-type {
+  padding-right: 0;
+}
+
+.col1-12:nth-of-type(12n) {
+  padding-right: 0;
+}
+
+.col1-12:nth-of-type(12n+1) {
+  padding-left: 0;
+}
+
+.col2-12:nth-of-type(6n) {
+  padding-right: 0;
+}
+
+.col2-12:nth-of-type(6n+1) {
+  padding-left: 0;
+}
+
+.col3-12:nth-of-type(4n) {
+  padding-right: 0;
+}
+
+.col3-12:nth-of-type(4n+1) {
+  padding-left: 0;
+}
+
+.col4-12:nth-of-type(3n) {
+  padding-right: 0;
+}
+
+.col4-12:nth-of-type(3n+1) {
+  padding-left: 0;
+}
+
+.col6-12:nth-of-type(2n) {
+  padding-right: 0;
+}
+
+.col6-12:nth-of-type(2n+1) {
+  padding-left: 0;
+}
+
+.fleft {
+  float: left;
+}
+
+.fright {
+  float: right;
+}

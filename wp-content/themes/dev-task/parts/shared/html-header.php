@@ -36,6 +36,17 @@
 			<script src="<?php echo get_stylesheet_directory_uri(); ?>/js/respond.min.js"></script>
 		<![endif]-->
 		<script type="text/javascript" src="<?php echo get_stylesheet_directory_uri(); ?>/js/modernizr.js"></script>
+
+        <!--Hover CSS-->
+        <link rel="stylesheet" type="text/css" href="/wp-content/themes/dev-task/css/hover.css" />
+
+        <!--Google Fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,800,900&display=swap" rel="stylesheet">
+
+        <!--Including AOS JQuery Library-->
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
 		<!-- WPHEAD -->
 		<?php wp_head(); ?>
 		<!-- WPHEAD -->
