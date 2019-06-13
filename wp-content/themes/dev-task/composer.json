@@ -1,0 +1,16 @@
+{
+    "name": "digitronix/starter_theme",
+    "type": "wordpress-theme",
+    "license": "BSD-3-Clause",
+    "description": "Starter theme for Wordpress.",
+    "keywords":[
+      "wordpress"
+    ],
+    "authors": [
+        {
+            "name": "digitronix",
+            "email": "tom.w@digitronix.co.uk"
+        }
+    ],
+    "homepage": "http://www.digitronix.co.uk"
+}
