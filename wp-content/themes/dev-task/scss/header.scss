@@ -7,6 +7,10 @@ header{
   background-color: #FFF;
 }
 
+.admin-bar .topNav{
+  top: 32px;
+}
+
 .container{
   width: $full_width;
   max-width: $max_width;
@@ -63,6 +67,10 @@ header{
   background-position: center;
   opacity: 0.8;
   background-color: #000000;
+}
+
+#sliderContainer .imageSlider .slide{
+  height: 100vh;
 }
 
 .topNav{
