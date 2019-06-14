@@ -5,9 +5,8 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/dev-task/css/main.css" afterPath="$PROJECT_DIR$/wp-content/themes/dev-task/css/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/dev-task/css/main.css.map" afterPath="$PROJECT_DIR$/wp-content/themes/dev-task/css/main.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/dev-task/parts/shared/html-header.php" afterPath="$PROJECT_DIR$/wp-content/themes/dev-task/parts/shared/html-header.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/dev-task/scss/base.scss" afterPath="$PROJECT_DIR$/wp-content/themes/dev-task/scss/base.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/dev-task/scss/header.scss" afterPath="$PROJECT_DIR$/wp-content/themes/dev-task/scss/header.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/dev-task/home.php" afterPath="$PROJECT_DIR$/wp-content/themes/dev-task/home.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/dev-task/scss/cv.scss" afterPath="$PROJECT_DIR$/wp-content/themes/dev-task/scss/cv.scss" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -60,16 +59,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="wp-config-sample.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-config-sample.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="37" column="27" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="90" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="wp-config.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-config.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -103,9 +92,21 @@
       <file leaf-file-name="cv.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/dev-task/scss/cv.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="207">
+              <caret line="52" column="19" lean-forward="false" selection-start-line="52" selection-start-column="19" selection-end-line="52" selection-end-column="19" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/dev-task/js/particles/app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="18" column="19" lean-forward="false" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -113,8 +114,8 @@
       <file leaf-file-name="base.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/dev-task/scss/base.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="36" column="14" lean-forward="false" selection-start-line="36" selection-start-column="14" selection-end-line="36" selection-end-column="14" />
+            <state relative-caret-position="171">
+              <caret line="170" column="10" lean-forward="false" selection-start-line="170" selection-start-column="10" selection-end-line="170" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -140,11 +141,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="html-header.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="html-header.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/dev-task/parts/shared/html-header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
+            <state relative-caret-position="340">
               <caret line="20" column="39" lean-forward="false" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="home.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/dev-task/home.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="110">
+              <caret line="116" column="18" lean-forward="false" selection-start-line="116" selection-start-column="18" selection-end-line="116" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -156,6 +167,8 @@
     <findStrings>
       <find>.hvr-fade:hover, .hvr-fade:focus, .hvr-fade:active</find>
       <find>abs</find>
+      <find>firstS</find>
+      <find>firs</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -176,12 +189,13 @@
         <option value="$PROJECT_DIR$/wp-content/themes/dev-task/parts/shared/footer.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/dev-task/js/site.js" />
         <option value="$PROJECT_DIR$/wp-content/themes/dev-task/css/hover.css" />
-        <option value="$PROJECT_DIR$/wp-content/themes/dev-task/scss/cv.scss" />
-        <option value="$PROJECT_DIR$/wp-content/themes/dev-task/home.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/dev-task/parts/shared/header.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/dev-task/scss/base.scss" />
         <option value="$PROJECT_DIR$/wp-content/themes/dev-task/scss/header.scss" />
         <option value="$PROJECT_DIR$/wp-content/themes/dev-task/parts/shared/html-header.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/dev-task/home.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/dev-task/scss/cv.scss" />
+        <option value="$PROJECT_DIR$/wp-content/themes/dev-task/js/particles/app.js" />
       </list>
     </option>
   </component>
@@ -201,7 +215,7 @@
     </packageJsonPaths>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
@@ -254,6 +268,23 @@
               <item name="wp-content" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="themes" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="dev-task" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="js" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="task" type="b2602c69:ProjectViewProjectNode" />
+              <item name="task" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="wp-content" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="themes" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="dev-task" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="js" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="particles" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="task" type="b2602c69:ProjectViewProjectNode" />
+              <item name="task" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="wp-content" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="themes" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="dev-task" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="parts" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
@@ -282,7 +313,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../projector-test" />
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
   </component>
   <component name="RecentsManager">
@@ -323,10 +354,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2186000" />
+    <option name="totallyTimeSpent" value="5904000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -400,30 +431,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/dev-task/scss/main.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/dev-task/scss/base.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="36" column="14" lean-forward="false" selection-start-line="36" selection-start-column="14" selection-end-line="36" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/dev-task/scss/cv.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/dev-task/scss/header.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -442,9 +449,51 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/dev-task/parts/shared/html-header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
+        <state relative-caret-position="340">
           <caret line="20" column="39" lean-forward="false" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/dev-task/scss/base.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="170" column="10" lean-forward="false" selection-start-line="170" selection-start-column="10" selection-end-line="170" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/dev-task/scss/main.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/dev-task/home.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="116" column="18" lean-forward="false" selection-start-line="116" selection-start-column="18" selection-end-line="116" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/dev-task/scss/cv.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="52" column="19" lean-forward="false" selection-start-line="52" selection-start-column="19" selection-end-line="52" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/dev-task/js/particles/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="19" lean-forward="false" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

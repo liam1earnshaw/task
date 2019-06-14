@@ -44,6 +44,45 @@
   margin: 0;
 }
 
+.thirdSection{
+  padding: 75px 0;
+}
+
+.fourthSection{
+  height: 100vh;
+  overflow: hidden;
+}
+
+.thirdSection .container{
+  padding: 0;
+}
+
+.thirdSection .container h2{
+  margin-top: 0;
+}
+
 #profilePhoto:hover .overlay{
   opacity: 1;
+}
+
+.absoluteImg{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.absoluteImg img{
+  width: 100%;
+}
+
+.particles {
+  float: left;
+  width: 75% !important;
+}
+
+canvas{
+  width: 100% !important;
+  clip-path: polygon(-100% 2%, 65% -2%, 100% 99%, -6% 46%);
+  float: left;
 }

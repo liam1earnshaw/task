@@ -98,8 +98,6 @@
 
     <section id="education" class="thirdSection">
 
-        <section id="introduction">
-
             <div class="container">
 
                 <!--                <div class="col col4-12">-->
@@ -118,7 +116,28 @@
 
             </div>
 
-        </section>
+    </section>
+
+    <section id="education" class="fourthSection">
+
+        <div class="bgImg">
+            <div class="absoluteImg" id="bgCont">
+                <div class="overlay"></div>
+                <img src="/wp-content/themes/dev-task/img/projector.jpg">
+            </div>
+            <div class="particles">
+                <!-- particles.js container -->
+                <div id="particles-js"></div>
+
+                <!-- scripts -->
+                <script src="/wp-content/themes/dev-task/js/particles/particles.js"></script>
+                <script src="/wp-content/themes/dev-task/js/particles/app.js"></script>
+                <script src="/wp-content/themes/dev-task/js/particles/particles.json"></script>
+                <script>
+
+                </script>
+            </div>
+        </div>
 
     </section>
 
