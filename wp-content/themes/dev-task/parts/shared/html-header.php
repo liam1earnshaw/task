@@ -32,9 +32,11 @@
 		<meta name="msapplication-square150x150logo" content="mstile-150x150.png" />
 		<meta name="msapplication-wide310x150logo" content="mstile-310x150.png" />
 		<meta name="msapplication-square310x310logo" content="mstile-310x310.png" />
+
 		<!--[if (IE 8) | (IEMobile)]>
 			<script src="<?php echo get_stylesheet_directory_uri(); ?>/js/respond.min.js"></script>
 		<![endif]-->
+
 		<script type="text/javascript" src="<?php echo get_stylesheet_directory_uri(); ?>/js/modernizr.js"></script>
 
         <!--Hover CSS-->
@@ -47,7 +49,11 @@
         <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
         <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
-		<!-- WPHEAD -->
+        <!--Including Featherlight-->
+        <link href="//cdn.rawgit.com/noelboss/featherlight/1.7.13/release/featherlight.min.css" type="text/css" rel="stylesheet" />
+        <script src="//cdn.rawgit.com/noelboss/featherlight/1.7.13/release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+
+        <!-- WPHEAD -->
 		<?php wp_head(); ?>
 		<!-- WPHEAD -->
 	</head>

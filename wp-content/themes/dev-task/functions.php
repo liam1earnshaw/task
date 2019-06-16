@@ -209,6 +209,8 @@
 		wp_enqueue_script( 'jquery' );
 		wp_register_script( 'plugins', get_stylesheet_directory_uri() . '/js/plugins.min.js', false, NULL, true );
 		wp_enqueue_script( 'plugins' );
+        wp_register_script( 'slick', '/wp-content/themes/dev-task/js/plugins/slick.js', false, NULL, true );
+        wp_enqueue_script( 'slick' );
 		wp_register_script( 'site', get_stylesheet_directory_uri() . '/js/site.min.js', false, NULL, true );
 		wp_enqueue_script( 'site' );
 	}

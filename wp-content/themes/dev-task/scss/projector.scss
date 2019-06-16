@@ -1,0 +1,49 @@
+//Projector & Particles Styling
+
+.particles {
+  float: left;
+  width: 75% !important;
+}
+
+canvas{
+  width: 100% !important;
+  clip-path: polygon(-100% 2%, 65% -2%, 100% 99%, -6% 46%);
+  float: left;
+}
+
+.lightsContainer{
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  z-index: 11;
+  height: auto;
+}
+
+.turnOffLights{
+  position: absolute;
+  top: 80px;
+  right: 30px;
+  color: #FFFFFF;
+  z-index: 9;
+  cursor: pointer;
+}
+
+.expertiseBox{
+  padding: 75px 0;
+  color: #FFFFFF;
+}
+
+.overlay.active{
+  overflow-x: scroll;
+}
+
+.overlay::-webkit-scrollbar{
+  display: none;
+}
+
+.marginCont{
+  float: left;
+  width: 100%;
+  margin: 50px 0;
+}

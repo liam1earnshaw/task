@@ -1,17 +1,77 @@
 (function ($) {
 
+    var $toggleButton = $('.toggle-button'),
+        $menuWrap = $('.menu-wrap');
+
+    $toggleButton.on('click', function() {
+        $(this).toggleClass('button-open');
+        $menuWrap.toggleClass('menu-show');
+        $('body').toggleClass('noOverflow');
+    });
+
+    $('.menu-wrap li a').click(function(){
+        $menuWrap.toggleClass('menu-show');
+        $('body').toggleClass('noOverflow');
+        $('.toggle-button').toggleClass('button-open');
+    });
+
     $(document).ready(function(){
         var height = window.innerHeight;
-        console.log(height);
         $('.imageSlider .slide').height(height);
     });
 
     $(window).resize(function(){
         var height = window.innerHeight;
-        console.log(height);
         $('.imageSlider .slide').height(height);
     });
 
+    $('.bounce').click(function(){
+
+        $(this).find('.balle').removeClass('runBallAnimation')
+        $(this).find('.ombre').removeClass('runOmbreAnimation')
+
+        setTimeout(function(){
+            $('.bounce').find('.balle').addClass('runBallAnimation')
+            $('.bounce').find('.ombre').addClass('runOmbreAnimation')
+        }, 10);
+    });
+
+    $('.turnOffLights').click(function(){
+        $('#expertise .overlay').toggleClass('active');
+        if($('#expertise .overlay').hasClass('active')){
+            $('.turnOffLights').html('<p><i class="fas fa-lightbulb"></i></p>');
+        }else{
+            $('.turnOffLights').html('<p><i class="fas fa-lightbulb"></i></p>');
+        }
+    });
+
+    $('#photosSection').slick({
+        dots: false,
+        infinite: false,
+        speed: 300,
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        responsive: [
+            {
+                breakpoint: 1024,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 1,
+                    dots: false,
+                    autoplay:false
+                }
+            },
+            {
+                breakpoint: 767,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    dots: false,
+                    autoplay:false
+                }
+            }
+        ]
+    });
 
     var headerHeight = $("header").height();
     // Select all links with hashes

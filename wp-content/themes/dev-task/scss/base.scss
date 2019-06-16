@@ -15,6 +15,7 @@
 
 h2{
   font-size: 50px;
+  margin: 0;
 }
 
 p{
@@ -27,8 +28,10 @@ html{
 }
 
 body{
-  height: $full_width;
+  float: left;
+  width: $full_width;
   margin: 0;
+  overflow-x: hidden;
 }
 
 main{
@@ -46,14 +49,24 @@ section{
   float: left;
   width: $full_width;
   outline: none;
+  padding: 50px 0;
 }
 
 .container {
+  position: relative;
   overflow: visible;
   height: $full_width;
   margin: $centerMargin;
   padding: 10px 20px;
   width: $full_width;
+}
+
+.mob_show{
+  display: none;
+}
+
+.mob_hide{
+  display: block;
 }
 
 .tcenter{

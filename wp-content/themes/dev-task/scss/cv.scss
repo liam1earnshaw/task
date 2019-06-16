@@ -1,26 +1,85 @@
 //CV Styles
 
+//Sections
+#introduction{
+  background-color: #FFFFFF;
+}
+
+.secondSection{
+  padding-top: 75px;
+  padding-bottom: 0;
+}
+
+.thirdSection{
+  padding: 75px 0;
+}
+
+.fourthSection{
+  height: 100vh;
+  overflow: hidden;
+  padding: 0;
+}
+
+#expertise{
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+
+#hobbies-interests{
+  padding: 100px 0;
+}
+
+#expertise{
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-color: #000000;
+}
+
+//Column Styling
+
+#introduction .col4-12{
+  padding: 0;
+}
+
+.secondSection .col4-12{
+  padding: 0;
+}
+
+//Header & Paragraph Styling
+
+.thirdSection .container h2{
+  margin-top: 0;
+}
+
+#experience h3, #hobbies-interests h3{
+  font-size: 20px;
+  font-weight: 600;
+}
+
+#profilePhoto h3{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #FFFFFF;
+  font-size: 40px;
+  margin: 0;
+}
+
+.turnOffLights p{
+  margin: 0;
+  font-size: 20px;
+}
+
+//Photos Styling
+
+
 #profilePhoto{
   padding: 0 0 75% 0;
   background-image: url("/wp-content/themes/dev-task/img/profilePhoto.png");
   background-size: cover;
   background-position: center;
   width: 100%;
-}
-
-#introduction{
-  //position: absolute;
-  //top: 50%;
-  //transform: translateY(-50%);
-  background-color: #FFFFFF;
-}
-
-#introduction .col4-12{
-  padding: 0;
-}
-
-.secondSection{
-  padding-top: 75px;
 }
 
 .overlay{
@@ -34,31 +93,9 @@
   transition: 0.3s ease-in-out;
 }
 
-.overlay h3{
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: #FFFFFF;
-  font-size: 40px;
-  margin: 0;
-}
-
-.thirdSection{
-  padding: 75px 0;
-}
-
-.fourthSection{
-  height: 100vh;
-  overflow: hidden;
-}
-
-.thirdSection .container{
-  padding: 0;
-}
-
-.thirdSection .container h2{
-  margin-top: 0;
+.overlay.active{
+  opacity: 1;
+  z-index: 9;
 }
 
 #profilePhoto:hover .overlay{
@@ -70,19 +107,23 @@
   top: 0;
   left: 0;
   width: 100%;
+  height: 100%;
+}
+
+#hobbies-interests .absoluteImg{
+  height: 100%;
 }
 
 .absoluteImg img{
   width: 100%;
 }
 
-.particles {
-  float: left;
-  width: 75% !important;
+#hobbies-interests .absoluteImg{
+  opacity: 0.2;
+  background-position: center;
+  background-size: cover;
 }
 
-canvas{
-  width: 100% !important;
-  clip-path: polygon(-100% 2%, 65% -2%, 100% 99%, -6% 46%);
-  float: left;
+#sliderContainer{
+  padding: 0;
 }
