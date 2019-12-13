@@ -4,7 +4,7 @@
   "description": "Starter Wordpress Theme",
   "main": "Gruntfile.js",
   "dependencies": {
-    "npm": "^6.9.0",
+    "npm": "^6.13.4",
     "uglifyjs": "^2.4.11"
   },
   "devDependencies": {
